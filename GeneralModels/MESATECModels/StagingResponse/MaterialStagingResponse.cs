@@ -22,5 +22,7 @@ namespace ATEC_API.GeneralModels.MESATECModels.StagingResponse
         public bool? isEpoxyAssigned { get; set; }
         public bool? isMachineExist { get; set; }
         public string? msg { get; set; }
+        public string? customerCode { get; set; }
+        public string? customerId { get; set;}
     }
 }

@@ -18,5 +18,14 @@ namespace ATEC_API.Data.StoredProcedures
         public static string usp_Material_Customer = "usp_MTL_MaterialType_GetCustomer";
         public static string usp_Check_Param = "usp_MTL_Parameter_Check";
         public static string usp_Material_History = "usp_MTL_Material_History_Endpoint";
+
+        // New Material Thawing Flow
+        public static string usp_Material_InOut_Endpoint = "usp_MTL_Material_InOut_Endpoint";
+        public static string usp_Material_LotMachine_Endpoint = "usp_MTL_Material_Lot_Machine_Usage_Endpoint";
+
+        // Material Thawing for Panjit and Gem
+        public static string usp_Material_InOut_PG = "usp_MTL_Material_InOut_Endpoint_PG";
+
+
     }
 }
